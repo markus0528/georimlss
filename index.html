@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="popper.min.js"></script>
+<script src="util.min.js"></script>
+<script src="collapse.min.js"></script>
+<script src="dropdown.min.js"></script>
+<script src="skrollr.min.js"></script>
+<script src="wwb16.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeOutCirc');
+   });
+   $('#ThemeableMenu1 .dropdown-toggle').dropdown({popperConfig:{placement:'left-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu1-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+   $('#ThemeableMenu2 .dropdown-toggle').dropdown({popperConfig:{placement:'bottom-start',modifiers:{computeStyle:{gpuAcceleration:false}}}});
+   $(document).on('click','.ThemeableMenu2-navbar-collapse.show',function(e)
+   {
+      if ($(e.target).is('a') && ($(e.target).attr('class') != 'dropdown-toggle')) 
+      {
+         $(this).collapse('hide');
+      }
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutCubic');
+   });
+   function skrollrInit()
+   {
+      skrollr.init({forceHeight: false, mobileCheck: function() { return false; }, smoothScrolling: false});
+   }
+   skrollrInit();
+});
+</script>
+</head>
+<body>
+<div id="wb_image">
+<div id="image-overlay"></div>
+<div id="image">
+<div class="row">
+<div class="col-1">
+<div id="wb_Palms" style="display:inline-block;width:533px;height:531px;opacity:0.60;z-index:0;">
+<img src="images/WhatsApp Image 2023-07-03 at 11.42.28 AM.png" id="Palms" alt="" width="533" height="531">
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Heading1" style="display:inline-block;width:573px;height:154px;z-index:1;">
+<h1 id="Heading1">Georim Land Surveying Services</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_ThemeableMenu1" style="display:inline-block;width:100%;text-align:right;z-index:2;">
+<div id="ThemeableMenu1" class="ThemeableMenu1" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu1-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu1-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a href="./index.html#home" class="nav-link"><i class="fa fa-home"></i>Home</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_ThemeableMenu2" style="display:inline-block;width:100%;z-index:3;">
+<div id="ThemeableMenu2" class="ThemeableMenu2" style="width:100%;height:auto !important;">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".ThemeableMenu2-navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="ThemeableMenu2-navbar-collapse collapse">
+<ul class="nav navbar-nav">
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" >Services<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="./index.html#services1" class="nav-link">Service #1</a></li>
+</ul>
+</li>
+<li class="nav-item">
+<a href="./index.html#about" class="nav-link">About</a>
+</li>
+<li class="nav-item dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" ><i class="settings-phone"></i>Contact<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="nav-item"><a href="Phone No. +63 920 444 2891" rel="nofollow" class="nav-link"><i class="settings-phone"></i>Phone No</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="wb_LayoutGrid6">
+<form name="LayoutGrid6" method="post" action="mailto:yourname@yourdomain.com" enctype="text/plain" id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<input type="text" id="Editbox3" style="display:block;width: 100%;height:42px;z-index:4;" name="name" value="" spellcheck="false" placeholder="Name" data--100-bottom="transform:translate(0%,0px);" data-bottom-top="transform:translate(200%,0px);">
+<input type="text" id="Editbox2" style="display:block;width: 100%;height:42px;z-index:5;" name="email" value="" spellcheck="false" placeholder="Email address" data--100-bottom="transform:translate(0%,0px);" data-bottom-top="transform:translate(200%,0px);">
+<input type="text" id="Editbox4" style="display:block;width: 100%;height:42px;z-index:6;" name="subject" value="" spellcheck="false" placeholder="Subject" data--100-bottom="transform:translate(0%,0px);" data-bottom-top="transform:translate(200%,0px);">
+</div>
+<div class="col-2">
+<textarea name="TextArea1" id="TextArea2" style="display:block;width: 100%;;height:99px;z-index:7;" rows="3" cols="50" autocomplete="off" spellcheck="false" placeholder="MESSAGE" data--100-bottom="transform:translate(0%,0px);" data-bottom-top="transform:translate(200%,0px);"></textarea>
+<a id="Button2" href="georimlss@yahoo.com" style="display:block;width: 100%;;height:42px;z-index:8;">SEND MESSAGE</a>
+</div>
+</div>
+</form>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#9C9C9C;font-family:Arial;font-size:15px;"><strong>ADDRESS</strong><br>Poblacion, Atimonan, Quezon<br>Philippines<br><br><strong>CONTACTS</strong><br>Email: georimlss@yahoo.com<br>Phone: (+63) 920 444 2891<br></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:10;">
+<a href="https://earth.google.com/web/@14.00085217,121.92279227,8.90452918a,526.39290243d,30.00000459y,0.00001489h,0t,0r/data=MikKJwolCiExelRYLU5nT2FsWHU2ZTZ3QlZKV2paUGc2Sl8xRE1oZkQgAQ"><img src="images/Capture.JPG" id="Image1" alt="" width="327" height="224"></a>
+</div>
+</div>
+<div class="col-3">
+<input type="text" id="Editbox1" style="display:block;width: 100%;height:30px;z-index:11;" name="Editbox1" value="" spellcheck="false" placeholder="Email">
+<textarea name="TextArea1" id="TextArea1" style="display:block;width: 100%;;height:88px;z-index:12;" rows="4" cols="40" autocomplete="off" spellcheck="false"></textarea>
+<a id="Button1" href="e-mail: georimlss@yahoo.com" style="display:block;width: 100%;;height:34px;z-index:13;">CONTACT US</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
